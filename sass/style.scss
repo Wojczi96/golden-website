@@ -264,32 +264,46 @@ footer li {
 
   /*Media*/
   @media (max-width: 767px) {
-     .head-text {
+     .nav-list li {
+      padding: 0;
+      flex-direction: column;
+     }
+     .nav-text {
+      justify-content: center;
+     }
+    .head-text {
       font-size: 50px;
       word-spacing: -14px;
       text-align: center;
-    }
+      }
     .head-text h1 {
       font-size: 70px;
-    }
+      }
     .head-logo {
       font-size: 20px;
-    }
+      }
     .container {
       flex-direction: column;
-    }
+      margin: 0;
+      padding: 0;
+      }
     .services {
       align-items: center;
-    }
+      }
     .wrapper, .work-wrapper, .row {
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
-    .project-wrapper {
-      padding-right: 180px;
+   .project-wrapper {
+    padding: 20px 0;
     }
-    .footer-wrapper p {
-      align-items: flex-start;
+   .footer-wrapper {
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
     }
-   }
+   .footer-wrapper p {
+    padding: 0;
+    }
+  }
