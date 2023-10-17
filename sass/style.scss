@@ -158,13 +158,13 @@ body {
 .cut {
   position: absolute;
   top: 5%;
-   left: 5%;
-    width: 90%;
-    height: 90%;
-    background-color: white;
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 0;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  background-color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
   }
 .icon-serv i {
   font-size: 40px;
@@ -213,8 +213,7 @@ body {
   margin-top: 10px;
   }
 
-
-/* Footer */
+  /* Footer */
 footer .container {
   margin: 0;
   padding: 15px;
@@ -262,48 +261,48 @@ footer li {
   color: white;
   }
 
-  /*Media*/
-  @media (max-width: 767px) {
-     .nav-list li {
-      padding: 0;
-      flex-direction: column;
-     }
-     .nav-text {
-      justify-content: center;
-     }
-    .head-text {
-      font-size: 50px;
-      word-spacing: -14px;
-      text-align: center;
-      }
-    .head-text h1 {
-      font-size: 70px;
-      }
-    .head-logo {
-      font-size: 20px;
-      }
-    .container {
-      flex-direction: column;
-      margin: 0;
-      padding: 0;
-      }
-    .services {
-      align-items: center;
-      }
-    .wrapper, .work-wrapper, .row {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+/*Media*/
+@media (max-width: 767px) {
+  .nav-list li {
+    padding: 0;
+    flex-direction: column;
+  }
+  .nav-text {
+    justify-content: center;
     }
-   .project-wrapper {
+  .head-text {
+    font-size: 50px;
+    word-spacing: -14px;
+    text-align: center;
+    }
+  .head-text h1 {
+    font-size: 70px;
+    }
+  .head-logo {
+    font-size: 20px;
+    }
+  .container {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    }
+  .services {
+    align-items: center;
+    }
+  .wrapper, .work-wrapper, .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-wrapper {
     padding: 20px 0;
     }
-   .footer-wrapper {
+  .footer-wrapper {
     flex-direction: row;
     padding: 0;
     justify-content: center;
     }
-   .footer-wrapper p {
+  .footer-wrapper p {
     padding: 0;
     }
   }
