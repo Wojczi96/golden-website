@@ -59,10 +59,10 @@ body {
   }
 .head-logo {
   font-family: $head-logo;
- }
-.under-logo {
+  }
+  .under-logo {
   font-family: $under-logo;
- }
+  }
 
  /* Navigation */
 .navigation {
@@ -180,7 +180,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 50px 0;
- }
+  }
 .row {
   display: flex;
   flex-direction: row;
@@ -213,7 +213,7 @@ body {
   margin-top: 10px;
   }
 
-  /* Footer */
+/* Footer */
 footer .container {
   margin: 0;
   padding: 15px;
@@ -266,7 +266,7 @@ footer li {
   .nav-list li {
     padding: 0;
     flex-direction: column;
-  }
+    }
   .nav-text {
     justify-content: center;
     }
@@ -293,7 +293,7 @@ footer li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+    }
   .project-wrapper {
     padding: 20px 0;
     }
